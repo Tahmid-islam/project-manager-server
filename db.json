@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$.pKsoB0WhDWUSkAKtvusW.YbEZU64EqVUyOfpYllO1DddnjzjEgmq",
+      "name": "Test1",
+      "id": 1
+    },
+    {
+      "email": "test2@test.com",
+      "password": "$2a$10$GptG.SteeoyqzRTD2vEG1uINcpLHcq1c.OKvRV7OmbtJG.tdLT/T6",
+      "name": "Test2",
+      "id": 2
+    },
+    {
+      "email": "test3@test.com",
+      "password": "$2a$10$QAoCffWsj1Zpi5sTEPF50ekReoLQkhGXcdESrT9Grf9hzt69PXB4y",
+      "name": "Test3",
+      "id": 3
+    },
+    {
+      "email": "tes4@test.com",
+      "password": "$2a$10$u1PIc/l/1jl9ssRT5Vnv9.Tuwd5PWvSFJt2D2lpomc91ramHwybwm",
+      "name": "Test4",
+      "id": 4
+    }
+  ],
+  "teams": [
+    {
+      "title": "Developer",
+      "description": "Developer group",
+      "color": "#1ad530",
+      "timestamp": 1664258136335,
+      "teamMember": "test@test.com",
+      "teamUsers": [
+        {
+          "email": "test@test.com",
+          "name": "Mr. Test",
+          "id": 6,
+          "isAdmin": true
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "projects": [
+    {
+      "teamId": 1,
+      "title": "Project One",
+      "description": "Project Description",
+      "teamName": "Dev-3",
+      "teamMember": "test@test.com",
+      "color": "#1ad530",
+      "timestamp": 1664288744106,
+      "id": 1
+    }
+  ]
+}
